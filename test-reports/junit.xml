@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.357">
+  <testsuite name="Map" errors="0" failures="0" skipped="0" timestamp="2023-03-28T22:38:30" time="2.219" tests="5">
+    <testcase classname="Map Basics should build a simple map collection" name="Map Basics should build a simple map collection" time="0.004">
+    </testcase>
+    <testcase classname="Map Basics should delete an element from a simple map collection" name="Map Basics should delete an element from a simple map collection" time="0.001">
+    </testcase>
+    <testcase classname="Map Basics should iterate thru the map, printing the values" name="Map Basics should iterate thru the map, printing the values" time="0.058">
+    </testcase>
+    <testcase classname="Map Basics should pull the keys of the map using Object.keys()" name="Map Basics should pull the keys of the map using Object.keys()" time="0.002">
+    </testcase>
+    <testcase classname="Map Basics should use the built in Map normally, Map&lt;string, string&gt;()" name="Map Basics should use the built in Map normally, Map&lt;string, string&gt;()" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
