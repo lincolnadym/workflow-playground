@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.357">
-  <testsuite name="Map" errors="0" failures="0" skipped="0" timestamp="2023-03-28T22:38:30" time="2.219" tests="5">
-    <testcase classname="Map Basics should build a simple map collection" name="Map Basics should build a simple map collection" time="0.004">
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="6.728">
+  <testsuite name="Map" errors="0" failures="0" skipped="0" timestamp="2024-02-25T17:13:55" time="4.603" tests="5">
+    <testcase classname="Map Basics should build a simple map collection" name="Map Basics should build a simple map collection" time="0.005">
     </testcase>
     <testcase classname="Map Basics should delete an element from a simple map collection" name="Map Basics should delete an element from a simple map collection" time="0.001">
     </testcase>
-    <testcase classname="Map Basics should iterate thru the map, printing the values" name="Map Basics should iterate thru the map, printing the values" time="0.058">
+    <testcase classname="Map Basics should iterate thru the map, printing the values" name="Map Basics should iterate thru the map, printing the values" time="0.031">
     </testcase>
     <testcase classname="Map Basics should pull the keys of the map using Object.keys()" name="Map Basics should pull the keys of the map using Object.keys()" time="0.002">
     </testcase>
     <testcase classname="Map Basics should use the built in Map normally, Map&lt;string, string&gt;()" name="Map Basics should use the built in Map normally, Map&lt;string, string&gt;()" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Map" errors="0" failures="0" skipped="0" timestamp="2024-02-25T17:13:55" time="5.257" tests="6">
+    <testcase classname="Map Basics should initialize with the seed data" name="Map Basics should initialize with the seed data" time="0.004">
+    </testcase>
+    <testcase classname="Map Basics should replace the plan with a new plan" name="Map Basics should replace the plan with a new plan" time="0.001">
+    </testcase>
+    <testcase classname="Map Basics should replace the calculation agreement with new json" name="Map Basics should replace the calculation agreement with new json" time="0">
+    </testcase>
+    <testcase classname="Map Basics should replace the calculation states with new json" name="Map Basics should replace the calculation states with new json" time="0.001">
+    </testcase>
+    <testcase classname="Map Basics should replace single json path value correctly" name="Map Basics should replace single json path value correctly" time="0.014">
+    </testcase>
+    <testcase classname="Map should replace json object using path correctly" name="Map should replace json object using path correctly" time="0.002">
     </testcase>
   </testsuite>
 </testsuites>

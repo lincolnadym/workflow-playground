@@ -16,9 +16,9 @@ export class Logger {
   ) {
     const logLevel = +(process.env.LOG_LEVEL || LogLevel.Info) as LogLevel;
     if (level <= logLevel) {
-      // console[operator](...args);
-      const theArgs = { ...args };
-      console.log(util.inspect(theArgs, { showHidden: false, depth: null }));
+      console[operator](...args);
+      // const theArgs = { ...args };
+      // console.log(util.inspect(theArgs, { showHidden: false, depth: null }));
     }
   }
 
